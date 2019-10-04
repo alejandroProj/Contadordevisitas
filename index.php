@@ -45,9 +45,7 @@ if ($contador <= 99)
     echo " <br> Estas visitando el link #1"; 
 
 //redireccionamiento 
-header("Status: 301 Moved Permanently");
-header("Location: https://adf.ly/publisher");
-exit; 
+
 
 
 // pasando el link que se esta visitando en el archivo de nombre link en proceso
